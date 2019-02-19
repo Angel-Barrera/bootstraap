@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximun-scale=1, minium-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Manejo de Grid</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="row">
+        <div class="col">
+          <h1>HEADER</h1>
+        </div>
+      </header>
+      <section class="contenedor-main row">
+        <main class="col-md-8"> <!-- En un tamaño mayor o igual a mediano, ocupara 8 col, si es menor, ocupara 12 -->
+          <h2>MAIN</h2>
+          <p>Estoy seguro de que el universo está lleno de vida inteligente. Simplemente ha sido demasiado inteligente para venir aquí (Arthur C. Clark)</p>
+          <p>Un arqueólogo es el mejor esposo que una mujer podría tener. Cuando más envejece ella, más interesado está él en ella. (Agatha Christie)</p>
+        </main>
+        <aside class="col-md-4 align-self-center"> <!-- En un tamaño mayor o igual a mediano, ocupara 4 col, si es menor, ocupara 12.  -->
+          <h3>ASIDE</h3>
+        </aside>
+      </section>
+      <section class="row widgets justify-content-between">
+        <div class="col-12 col-md-4 col-lg-3">
+          <p>La edad es algo que no importa, a menos que sea usted un queso (Luis Buñuel)</p>
+        </div>
+        <div class="col-12 col-md-4 col-lg-3">
+          <p>Mi mujer y yo fuimos felices durante 20 años. Luego, nos conocimos (Rodney Dangerfield)</p>
+        </div>
+        <div class="col-12 col-md-4 col-lg-3">
+          <p>Si pudieras patear en el trasero al responsable de casi todos tus problemas, no podrías sentarte por un mes (Theodore Roosevelt)</p>
+        </div>
+      </section>
+      <footer class="row">
+        <div class="col">
+          <h4>FOOTER</h4>
+        </div>
+      </footer>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
