@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimun-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <title>Formulario</title>
+  </head>
+  <body>
+    <div class="container">
+              <!-- tabla de tamaños
+          col        extra small - smartphone vertical        x<544px
+          col-sm     small - smartphone vertical              544<x<768
+          col-md     mediano - tablets                        768<x<992
+          col-lg     largo - computadoras                     992<x<1200
+          col-xl     extra largo - computadoras               x>1200
+        -->
+      <div class="row mt-3">
+        <div class="col">
+          <form action="">
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" class="form-control" placeholder="Nombre" name="nombre" id="nombre">
+            </div>
+
+            <div class="form-group">
+              <label for="pass">Contraseña</label>
+              <input type="password" class="form-control" placeholder="Contraseña" name="pass" id="pass">
+            </div>
+
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea name="mensaje" id="mensaje" class="form-control"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="pais">Pais</label>
+              <select name="pais" id="pais" class="form-control">
+                <option value="mexico">Mexico</option>
+                <option value="espana">España</option>
+                <option value="colombia">Colombia</option>
+              </select>
+            </div>
+
+            <div class="form-check">
+              <label for="form-check-label">
+                <input type="radio" name="sexo" id="hombre" class="form-check-input mr-2">Hombre
+              </label>
+            </div>
+
+            <div class="form-check">
+              <label for="form-check-label">
+                <input type="radio" name="sexo" id="mujer" class="form-check-input mr-2">Mujer
+              </label>
+            </div>
+
+            <div class="form-check">
+              <label for="form-check-label">
+                <input type="checkbox" name="terminos" id="terminos" class="form-check-input mr-2">Acepto términos y condiciones
+              </label>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Enviar</button>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
