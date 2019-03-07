@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimun-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <title>Formularios personalizados</title>
+  </head>
+  <body>
+    <div class="container">
+              <!-- tabla de tamaños
+          col        extra small - smartphone vertical        x<544px
+          col-sm     small - smartphone vertical              544<x<768
+          col-md     mediano - tablets                        768<x<992
+          col-lg     largo - computadoras                     992<x<1200
+          col-xl     extra largo - computadoras               x>1200
+        -->
+      <div class="row">
+        <div class="col">
+          <form class="mt-3">
+            <h2>Checkbox Personalizado</h2><hr>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" name="" id="checkPerso1" class="custom-control-input">
+              <label for="checkPerso1" class="custom-control-label">Acepto los Términos y Condiciones</label>
+            </div>
+
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" name="" id="checkPerso2" class="custom-control-input">
+              <label for="checkPerso2" class="custom-control-label">Acepto las Políticas de Privacidad</label>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <form class="mt-3">
+            <h2>Radio Personalizado</h2><hr>
+            <div class="custom-control custom-radio">
+              <input type="radio" name="sexo" id="radioPerso1" class="custom-control-input">
+              <label for="radioPerso1" class="custom-control-label">Hombre</label>
+            </div>
+
+            <div class="custom-control custom-radio">
+              <input type="radio" name="sexo" id="radioPerso2" class="custom-control-input">
+              <label for="radioPerso2" class="custom-control-label">Mujer</label>
+            </div>
+
+            <br>
+
+            <div class="custom-control custom-control-inline custom-radio">
+              <input type="radio" name="edad" id="radioPerso3" class="custom-control-input">
+              <label for="radioPerso3" class="custom-control-label">Menor de edad</label>
+            </div>
+
+            <div class="custom-control custom-control-inline custom-radio">
+              <input type="radio" name="edad" id="radioPerso4" class="custom-control-input">
+              <label for="radioPerso4" class="custom-control-label">Mayor de edad</label>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <form class="mt-3">
+            <h2>Selected Personalizado</h2><hr>
+            <select class="custom-select mb-3">
+              <option value="1" selected="true">Opcion 1</option>
+              <option value="2">Opcion 2</option>
+              <option value="3">Opcion 3</option>
+              <option value="4">Opcion 4</option>
+            </select>
+
+            <select class="custom-select custom-select-lg mb-3">
+              <option value="1" selected="true">Opcion 1</option>
+              <option value="2">Opcion 2</option>
+              <option value="3">Opcion 3</option>
+              <option value="4">Opcion 4</option>
+            </select>
+
+            <select class="custom-select custom-select-sm mb-3">
+              <option value="1" selected="true">Opcion 1</option>
+              <option value="2">Opcion 2</option>
+              <option value="3">Opcion 3</option>
+              <option value="4">Opcion 4</option>
+            </select>
+
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
