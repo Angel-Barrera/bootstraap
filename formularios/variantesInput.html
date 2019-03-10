@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimun-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <title>Variantes de input</title>
+  </head>
+  <body>
+    <div class="container">
+              <!-- tabla de tamaños
+          col        extra small - smartphone vertical        x<544px
+          col-sm     small - smartphone vertical              544<x<768
+          col-md     mediano - tablets                        768<x<992
+          col-lg     largo - computadoras                     992<x<1200
+          col-xl     extra largo - computadoras               x>1200
+        -->
+      <div class="row mt-3">
+        <div class="col">
+          <h2>Tamaños Input</h2>
+          <hr>
+          <form>
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input class="form-control form-control-lg" type="text" name="nombre" id="nombre" placeholder="Nombre con input de tamaño lg">
+            </div>
+
+            <div class="form-group">
+              <label for="correo">Correo</label>
+              <input class="form-control" type="text" name="correo" id="correo" placeholder="Correo con input de tamaño normal">
+            </div>
+
+            <div class="form-group">
+              <label for="pasaporte">Pasaporte</label>
+              <input class="form-control form-control-sm" type="text" name="pasaporte" id="pasaporte" placeholder="Pasaporte con input de tamaño sm">
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+
+      <div class="row mt-3">
+        <div class="col">
+          <h2>Estados de ReadOnly y Disabled</h2>
+          <hr>
+          <form>
+            <div class="form-group">
+              <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Sólo puedes leer el contenido" readonly>
+            </div>
+
+            <div class="form-group">
+              <input class="form-control" type="text" name="correo" id="correo" placeholder="Deshabilitado" disabled>
+            </div>
+
+            <div class="form-group">
+              <select class="form-control" disabled>
+                <option value="1"> Select deshabilitado</option>
+                <option value="2">Prueba</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>
+                <input type="radio" name="" disabled> Radio
+              </label>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+
+
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
