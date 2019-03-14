@@ -10,12 +10,12 @@ header{
 .contenedor-main{		/* Esto es una clase */
 	margin-bottom: 20px;
 }
-main{					/* Esto es una etiqueta definida por el diseñador */
+main{
 	background: #fff;
 	color: #424242; /* Hace referencia a los colores de la tipografia */
 	padding: 20px 0; /* Margen interior arriba y abajo de 20px, y de 0 a los lados */
 }
-aside{					/* Esto es una etiqueta definida por el diseñador */
+aside{
 	background: #dee5e8;
 	padding: 60px 0;
 	color: #0d47a1;
