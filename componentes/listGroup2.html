@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimun-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <title>Grupos de Listas</title>
+  </head>
+  <body>
+    <div class="container">
+              <!-- tabla de tamaños
+          col        extra small - smartphone vertical        x<544px
+          col-sm     small - smartphone vertical              544<x<768
+          col-md     mediano - tablets                        768<x<992
+          col-lg     largo - computadoras                     992<x<1200
+          col-xl     extra largo - computadoras               x>1200
+        -->
+      <div class="row mt-3">
+        <div class="col-4">
+          <div class="list-group" id="lista" role="tablist">
+            <a href="#elemento1" class="list-group-item list-gorup-item-action active" data-toggle="list" role="tab" aria-controls="elemento1">Elemento 1</a>
+            <a href="#elemento2" class="list-group-item list-gorup-item-action" data-toggle="list" role="tab" aria-controls="elemento2">Elemento 2</a>
+            <a href="#elemento3" class="list-group-item list-gorup-item-action" data-toggle="list" role="tab" aria-controls="elemento3">Elemento 3</a>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="elemento1" role="tabpanel" aria-labelledby="elemento1">
+              <head>Título #1</head>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore perspiciatis ipsam assumenda reprehenderit aspernatur at beatae cum optio facere minus esse explicabo nihil maxime inventore soluta nostrum tempora, deserunt quas possimus et. Modi recusandae cumque natus omnis. Dolorem fugit, temporibus tenetur! Ut distinctio magni earum sunt dignissimos aut soluta, praesentium!</p>
+            </div>
+            <div class="tab-pane fade show" id="elemento2" role="tabpanel" aria-labelledby="elemento2">
+              <head>Título #2</head>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore perspiciatis ipsam assumenda reprehenderit aspernatur at beatae cum optio facere minus esse explicabo nihil maxime inventore soluta nostrum tempora, deserunt quas possimus et. Modi recusandae cumque natus omnis. Dolorem fugit, temporibus tenetur! Ut distinctio magni earum sunt dignissimos aut soluta, praesentium!</p>
+            </div>
+            <div class="tab-pane fade show" id="elemento3" role="tabpanel" aria-labelledby="elemento3">
+              <head>Título #3</head>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore perspiciatis ipsam assumenda reprehenderit aspernatur at beatae cum optio facere minus esse explicabo nihil maxime inventore soluta nostrum tempora, deserunt quas possimus et. Modi recusandae cumque natus omnis. Dolorem fugit, temporibus tenetur! Ut distinctio magni earum sunt dignissimos aut soluta, praesentium!</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
