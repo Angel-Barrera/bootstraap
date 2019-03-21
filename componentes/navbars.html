@@ -14,9 +14,55 @@
       }
     </style>
 
-    <title>Plantilla</title>
+    <title>Navbars!</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <!--
+      navbar-expand-talla > mostrar boton en un intervalo [xs, "talla"): xs, sm, md, lg, xl
+      si talla = xs, se muestra en cualquier tamaño!
+      navbar-light / navbar-dark > indica el uso de un fondo claro u oscuro
+      bg-light / bg-dark / bg-colorBoostrap > darle color de fondo al background
+      fixed-top / fixed-bottom > ancla la barra de navegación en la parte superior o en la inferior
+      -->
+      <div class="container">
+        <a href="#" class="navbar-brand">Menú</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menú de navegación">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav mr-auto"> <!-- margin right auto > mr-auto -->
+            <li class="nav-item">
+              <a href="#" class="nav-link">Inicio</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" id="menu-categorias" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+              <div class="dropdown-menu" aria-labelledby="menu-categorias">
+                <a href="#" class="dropdown-item">HTML</a>
+                <a href="#" class="dropdown-item">CSS</a>
+                <a href="#" class="dropdown-item">JS</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link disabled">Proximamente</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contacto</a>
+            </li>
+          </ul>
+          <form action="" class="form-inline my-2 my-lg-0"> <!-- margen en eje Y y en cierta talla > my-talla-tamaño -->
+            <input type="text" name="cuadro" class="form-control mr-sm-2" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-primary my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+
+      </div>
+    </nav>
+
     <div class="container">
               <!-- tabla de tamaños
           col        extra small - smartphone vertical        x<544px
@@ -25,52 +71,6 @@
           col-lg     largo - computadoras                     992<x<1200
           col-xl     extra largo - computadoras               x>1200
         -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <!--
-      navbar-expand-talla > mostrar boton en un intervalo [xs, "talla"): xs, sm, md, lg, xl
-      si talla = xs, se muestra en cualquier tamaño!
-      navbar-light / navbar-dark > indica el uso de un fondo claro u oscuro
-      bg-light / bg-dark / bg-colorBoostrap > darle color de fondo al background
-      fixed-top / fixed-bottom > ancla la barra de navegación en la parte superior o en la inferior
-      -->
-        <div class="container">
-          <a href="#" class="navbar-brand">Menú</a>
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menú de navegación">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a href="#" class="nav-link">Inicio</a>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" id="menu-categorias" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
-                <div class="dropdown-menu" aria-labelledby="menu-categorias">
-                  <a href="#" class="dropdown-item">HTML</a>
-                  <a href="#" class="dropdown-item">CSS</a>
-                  <a href="#" class="dropdown-item">JS</a>
-                </div>
-              </li>
-
-              <li class="nav-item">
-                <a href="#" class="nav-link disabled">Proximamente</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Contacto</a>
-              </li>
-            </ul>
-            <form action="" class="form-inline my-2 my-lg-0">
-              <input type="text" name="cuadro" class="form-control mr-sm-2" placeholder="Buscar" aria-label="Buscar">
-              <button class="btn btn-primary my-sm-0" type="submit">Buscar</button>
-            </form>
-          </div>
-
-        </div>
-      </nav>
-
       <div class="row mt-3">
         <div class="col">
           <div class="jumbotron">
