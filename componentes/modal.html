@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimun-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <title>Modal</title>
+  </head>
+  <body>
+    <div class="container">
+              <!-- tabla de tamaños
+          col        extra small - smartphone vertical        x<544px
+          col-sm     small - smartphone vertical              544<x<768
+          col-md     mediano - tablets                        768<x<992
+          col-lg     largo - computadoras                     992<x<1200
+          col-xl     extra largo - computadoras               x>1200
+        -->
+      <div class="row mt-3">
+        <div class="col">
+          <button class="btn btn-primary" data-toggle="modal" data-target="#mi-modal">Abrir Modal</button>
+          <div class="modal fade" id="mi-modal" tabindex="-1" role="dialog" aria-labelledby="mi-modalaria" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-tittle">Título de la ventana</h5>
+                  <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h2>Hola desde el cuerpo del modal</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis eum, similique aliquam minima neque corporis, a quos provident cupiditate alias deserunt qui in, numquam amet temporibus voluptatum fugit delectus esse porro eligendi. Repellat, aperiam porro similique officiis eum itaque, atque fugiat architecto aspernatur ipsam tempore necessitatibus blanditiis quasi neque dignissimos accusantium. Repellat quibusdam totam neque quas? Quae illo veniam optio!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-primary" data-toggle="modal" data-target="#mi-modal-grid">Abrir Modal con Grid</button>
+          <div class="modal fade" id="mi-modal-grid" tabindex="-1" role="dialog" aria-labelledby="mi-modal-grid" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-tittle">GRID</h5>
+                  <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-12 col-sm-6">
+                        <h2>Hola desde el cuerpo del modal</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis eum, similique aliquam minima neque corporis, a quos provident cupiditate alias deserunt qui in, numquam amet temporibus voluptatum fugit delectus esse porro eligendi. Repellat, aperiam porro similique officiis eum itaque, atque fugiat architecto aspernatur ipsam tempore necessitatibus blanditiis quasi neque dignissimos accusantium. Repellat quibusdam totam neque quas? Quae illo veniam optio!</p>
+                      </div>
+                      <div class="col-12 col-sm-6">
+                        <h2>Hola desde el cuerpo del modal</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis eum, similique aliquam minima neque corporis, a quos provident cupiditate alias deserunt qui in, numquam amet temporibus voluptatum fugit delectus esse porro eligendi. Repellat, aperiam porro similique officiis eum itaque, atque fugiat architecto aspernatur ipsam tempore necessitatibus blanditiis quasi neque dignissimos accusantium. Repellat quibusdam totam neque quas? Quae illo veniam optio!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-success">Aceptar</button>
+                  <button class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

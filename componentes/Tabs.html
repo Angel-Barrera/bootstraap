@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimun-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <title>Tabs</title>
+  </head>
+  <body>
+    <div class="container">
+              <!-- tabla de tamaños
+          col        extra small - smartphone vertical        x<544px
+          col-sm     small - smartphone vertical              544<x<768
+          col-md     mediano - tablets                        768<x<992
+          col-lg     largo - computadoras                     992<x<1200
+          col-xl     extra largo - computadoras               x>1200
+        -->
+      <div class="row mt-3">
+        <div class="col">
+          <ul class="nav nav-tabs">
+            <li class="nav-item"><a href="#" class="nav-link active">Inicio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="#" class="nav-link disabled">Proximamente</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col">
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active">Inicio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="#" class="nav-link disabled">Proximamente</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col">
+          <ul class="nav nav-pills nav-fill">
+            <li class="nav-item"><a href="#" class="nav-link ml-1 mr-1 active">Inicio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link ml-1 mr-1 active">Blog</a></li>
+            <li class="nav-item"><a href="#" class="nav-link ml-1 mr-1 active disabled">Proximamente</a></li>
+            <li class="nav-item"><a href="#" class="nav-link ml-1 mr-1 active">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col">
+          <ul class="nav nav-tabs">
+            <li class="nav-item"><a href="#" class="nav-link active">Inicio</a></li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Categoría 1</a>
+                <a href="#" class="dropdown-item">Categoría 2</a>
+                <a href="#" class="dropdown-item">Categoría 3</a>
+              </div>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link disabled">Proximamente</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col">
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active">Inicio</a></li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Categoría 1</a>
+                <a href="#" class="dropdown-item">Categoría 2</a>
+                <a href="#" class="dropdown-item">Categoría 3</a>
+              </div>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link disabled">Proximamente</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col">
+          <ul class="nav nav-tabs">
+            <li class="nav-item"><a href="#tab1" class="nav-link active" data-toggle="tab">Tab 1</a></li>
+            <li class="nav-item"><a href="#tab2" class="nav-link" data-toggle="tab">Tab 2</a></li>
+            <li class="nav-item"><a href="#tab3" class="nav-link" data-toggle="tab">Tab 3</a></li>
+          </ul>
+
+          <div class="tab-content">
+            <div class="tab-pane active mt-3" id="tab1" role="tabpanel">
+              <h3>Panel 1</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam voluptas, ullam nemo at reprehenderit cupiditate mollitia iure, error velit facilis quas amet similique sint voluptates qui porro architecto id aliquam. Vero fuga beatae, repellat odio, velit saepe hic. Molestiae necessitatibus voluptatem vero modi accusamus nesciunt atque autem, molestias totam, consectetur?</p>
+            </div>
+            <div class="tab-pane mt-3" id="tab2" role="tabpanel">
+              <h3>Panel 2</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam voluptas, ullam nemo at reprehenderit cupiditate mollitia iure, error velit facilis quas amet similique sint voluptates qui porro architecto id aliquam. Vero fuga beatae, repellat odio, velit saepe hic. Molestiae necessitatibus voluptatem vero modi accusamus nesciunt atque autem, molestias totam, consectetur?</p>
+            </div>
+            <div class="tab-pane mt-3" id="tab3" role="tabpanel">
+              <h3>Panel 3</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam voluptas, ullam nemo at reprehenderit cupiditate mollitia iure, error velit facilis quas amet similique sint voluptates qui porro architecto id aliquam. Vero fuga beatae, repellat odio, velit saepe hic. Molestiae necessitatibus voluptatem vero modi accusamus nesciunt atque autem, molestias totam, consectetur?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
