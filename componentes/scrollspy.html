@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimun-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+      body {
+        position: relative;
+      }
+      .style-nav a {
+        color: #fff;
+        padding: 15px;
+      }
+      .style-nav .active, .style-nav a:hover {
+        background: rgba(255,255,255,0.1);
+      }
+      .seccion {
+        margin-bottom: 1000px;
+      }
+      .seccion .columna {
+        padding-top: 100px;
+      }
+    </style>
+
+    <title>Scrollspy</title>
+  </head>
+  <body data-spy="scroll" data-target="#mi-nav">
+    <div class="container">
+              <!-- tabla de tamaños
+          col        extra small - smartphone vertical        x<544px
+          col-sm     small - smartphone vertical              544<x<768
+          col-md     mediano - tablets                        768<x<992
+          col-lg     largo - computadoras                     992<x<1200
+          col-xl     extra largo - computadoras               x>1200
+        -->
+      <div class="row">
+        <div class="col">
+          <nav id="mi-nav">
+            <ul class="style-nav nav fixed-top navbar-inverse bg-warning">
+              <li class="nav-item">
+                <a href="#seccion1" class="nav-link">Sección 1</a>
+              </li>
+              <li class="nav-item">
+                <a href="#seccion2" class="nav-link">Sección 2</a>
+              </li>
+              <li class="nav-item">
+                <a href="#seccion3" class="nav-link">Sección 3</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        
+      </div>
+
+      <div class="row seccion" id="seccion1">
+        <div class="col-12 columna">
+          <h2>Sección 1</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut magnam distinctio quaerat fuga laudantium, obcaecati et laboriosam optio. Beatae harum earum necessitatibus tempora in voluptatibus nemo repudiandae enim error nisi, consectetur reprehenderit veritatis assumenda excepturi eveniet aliquam alias minima delectus iusto laboriosam, porro numquam. Voluptas deleniti dolores iusto, reprehenderit fugit non, beatae, ratione ut accusamus quaerat distinctio ab explicabo aliquam.</p>
+        </div>
+      </div>
+      <div class="row seccion" id="seccion2">
+        <div class="col-12 columna">
+          <h2>Sección 2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut magnam distinctio quaerat fuga laudantium, obcaecati et laboriosam optio. Beatae harum earum necessitatibus tempora in voluptatibus nemo repudiandae enim error nisi, consectetur reprehenderit veritatis assumenda excepturi eveniet aliquam alias minima delectus iusto laboriosam, porro numquam. Voluptas deleniti dolores iusto, reprehenderit fugit non, beatae, ratione ut accusamus quaerat distinctio ab explicabo aliquam.</p>
+        </div>
+      </div>
+      <div class="row seccion" id="seccion3">
+        <div class="col-12 columna">
+          <h2>Sección 3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut magnam distinctio quaerat fuga laudantium, obcaecati et laboriosam optio. Beatae harum earum necessitatibus tempora in voluptatibus nemo repudiandae enim error nisi, consectetur reprehenderit veritatis assumenda excepturi eveniet aliquam alias minima delectus iusto laboriosam, porro numquam. Voluptas deleniti dolores iusto, reprehenderit fugit non, beatae, ratione ut accusamus quaerat distinctio ab explicabo aliquam.</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

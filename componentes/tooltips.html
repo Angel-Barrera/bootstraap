@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimun-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <title>Tooltips</title>
+  </head>
+  <body>
+    <div class="container">
+              <!-- tabla de tamaños
+          col        extra small - smartphone vertical        x<544px
+          col-sm     small - smartphone vertical              544<x<768
+          col-md     mediano - tablets                        768<x<992
+          col-lg     largo - computadoras                     992<x<1200
+          col-xl     extra largo - computadoras               x>1200
+        -->
+      <div class="row mt-5">
+        <div class="col">
+          <p>Lorem ipsum
+            <a href="#" data-toggle="tooltip" data-placement="top" title="Tooltip en enlace">dolor sit amet</a>,
+             consectetur adipisicing elit. Recusandae architecto iure delectus accusantium eveniet repudiandae aliquam officia molestiae, iusto similique ipsa magni, sequi sapiente inventore, ex eum aperiam quidem a maxime quas. Nam, eum, atque 
+            <a href="#" data-toggle="tooltip" data-placement="left" title="www.google.com">odit amet</a> 
+            quidem fugit dolore dolorem inventore doloribus 
+            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Holis">nobis facere</a>,
+             ut ex ab eligendi veniam.</p>
+             <br>
+             <button class="btn btn-success" data-toggle="tooltip" data-placement="right" title="Tooltip en botón">click!</button>
+        </div>
+        
+      </div>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script>
+      $(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+      })
+    </script>
+  </body>
+</html>
