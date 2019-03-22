@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimun-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+      .caja {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        margin: 20px;
+        border: 1px solid #000;
+      }
+    </style>
+
+    <title>Bordes</title>
+  </head>
+  <body>
+    <div class="container">
+              <!-- tabla de tamaños
+          col        extra small - smartphone vertical        x<544px
+          col-sm     small - smartphone vertical              544<x<768
+          col-md     mediano - tablets                        768<x<992
+          col-lg     largo - computadoras                     992<x<1200
+          col-xl     extra largo - computadoras               x>1200
+        -->
+      <div class="row mt-3">
+        <div class="col-6">
+          <div class="caja bg-light"></div>
+          <div class="caja bg-light border-"></div>
+          <div class="caja bg-light border-top-0"></div>
+          <div class="caja bg-light border-right-0"></div>
+          <div class="caja bg-light border-left-0"></div>
+          <div class="caja bg-light border-bottom-0"></div>
+        </div>
+
+        <div class="col-6">
+          <div class="caja border-primary"></div>
+          <div class="caja border-secondary"></div>
+          <div class="caja border-success"></div>
+          <div class="caja border-danger"></div>
+          <div class="caja border-warning"></div>
+          <div class="caja border-info"></div>
+          <div class="caja border-light"></div>
+          <div class="caja border-dark"></div>
+          <div class="caja border-white"></div>
+        </div>
+
+        <div class="col-6">
+          <div class="caja bg-primary rounded"></div>
+          <div class="caja bg-primary rounded-top"></div>
+          <div class="caja bg-primary rounded-right"></div>
+          <div class="caja bg-primary rounded-left"></div>
+          <div class="caja bg-primary rounded-bottom"></div>
+          <div class="caja bg-primary rounded-circle"></div>
+          <div class="caja bg-primary rounded-0"></div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
