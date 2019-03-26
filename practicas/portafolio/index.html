@@ -48,7 +48,7 @@
         </div>
         <!-- Slider -->
         <div class="row slider">
-          <div class="col">
+          <div class="col p-0">
             <div class="carousel slide carousel-fade" id="slider" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#slider" data-slide-to="0" class="active"></li>
@@ -79,14 +79,120 @@
         </div>
       </div>  
     </header>
-    <div class="container">
-      <div class="row">
-        <div class="col">
+    <main>
+      <div class="container">
+        <!-- Seccion portafolio -->
+        <div class="row portafolio">
+          <div class="col">
+            <h2 class="titulo">Portafolio</h2>
+            <div class="row galeria justify-content-center">
+              <div class="contenedor-imagen col-6 col-lg-4">
+                <a href="#" data-toggle="modal" data-target="#modal">
+                  <img src="img/porta1.1.jpg" class="img-fluid imagen">
+                </a>
+              </div>
+              <div class="contenedor-imagen col-12 col-lg-8">
+                <a href="#" data-toggle="modal" data-target="#modal">
+                  <img src="img/porta2.1.jpg" class="img-fluid imagen">
+                </a>
+              </div>
+              <div class="contenedor-imagen col-12 col-lg-8">
+                <a href="#" data-toggle="modal" data-target="#modal">
+                  <img src="img/porta2.2.jpg" class="img-fluid imagen">
+                </a>
+              </div>
+              <div class="contenedor-imagen col-6 col-lg-4">
+                <a href="#" data-toggle="modal" data-target="#modal">
+                  <img src="img/porta1.2.jpg" class="img-fluid imagen">
+                </a>
+              </div>
+              <div class="contenedor-imagen col-6 col-lg-4">
+                <a href="#" data-toggle="modal" data-target="#modal">
+                  <img src="img/porta1.3.jpg" class="img-fluid imagen">
+                </a>
+              </div>
+              <div class="contenedor-imagen col-6 col-lg-4">
+                <a href="#" data-toggle="modal" data-target="#modal">
+                  <img src="img/porta1.4.jpg" class="img-fluid imagen">
+                </a>
+              </div>
+              <div class="contenedor-imagen col-6 col-lg-4">
+                <a href="#" data-toggle="modal" data-target="#modal">
+                  <img src="img/porta1.5.jpg" class="img-fluid imagen">
+                </a>
+              </div>
+              <!-- Ventana modal -->
+              <div class="modal fade" id="modal">
+                <div class="modal-dialog d-flex justify-content-center align-items-center">
+                  <div class="modal-content">
+                    <img src="img/porta1.5.jpg" alt="" id="imagen-modal" class="">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          
+        </div>
+        <!-- Seccion Acerca de -->
+        <div class="row acerca-de align-items-center">
+          <div class="col-12 col-lg-4 foto">
+            <img src="img/foto.jpg" class="rounded-circle img-fluid">
+            <p class="nombre">Angel Barrera</p>
+          </div>
+          <div class="col-12 col-lg-8 info">
+            <h2 class="titulo">Acerca de</h2>
+            <p class="resumen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio facere unde natus cumque, rem sed recusandae voluptates error. Quibusdam, quaerat.</p>
+            <p class="resumen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio facere unde natus cumque, rem sed recusandae voluptates error. Quibusdam, quaerat.</p>
+
+            <p class="label">HTML</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%;">80%</div>
+            </div>
+            <p class="label">CSS</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 74%;">74%</div>
+            </div>
+            <p class="label">JavaScript</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 50%;">50%</div>
+            </div>
+          </div>
+        </div>
+        <!-- Seccion de Contacto -->
+        <div class="row contacto justify-content-center">
+          <div class="col-12 col-lg-8">
+            <h2 class="titulo">Contacto</h2>
+            <form class="formulario">
+              <div class="form-group row">
+                <div class="col-12 col-md-6">
+                  <input type="text" name="" placeholder="Nombre">
+                </div>
+                <div class="col-12 col-md-6">
+                  <input type="email" name="" placeholder="Correo">
+                </div>
+              </div>
+              <textarea placeholder="Mensaje"></textarea>
+              <div class="form-group d-flex justify-content-center">
+                <input type="submit" name="" class="boton" value="Enviar">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row redes-soc justify-content-center">
+          <div class="col-auto">
+            <a href="#" class="icono icon-twitter twitter"></a>
+            <a href="#" class="icono icon-instagram instagram"></a>
+            <a href="#" class="icono icon-facebook facebook"></a>
+          </div>
 
         </div>
-        
       </div>
-    </div>
+    </footer>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
